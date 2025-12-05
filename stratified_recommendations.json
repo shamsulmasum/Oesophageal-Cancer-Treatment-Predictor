@@ -1,0 +1,38 @@
+{
+  "<65 years": {
+    "absolute_benefit": 0.039861469509710715,
+    "recommendation": "Individualize decision - small potential benefit",
+    "n_patients": 273,
+    "n_surgery": 74,
+    "surgery_mortality": 0.04054054054054054,
+    "endoscopy_mortality": 0.08040201005025126
+  },
+  "65-75 years": {
+    "absolute_benefit": -0.0012820512820512775,
+    "recommendation": "Endoscopic treatment reasonable",
+    "n_patients": 346,
+    "n_surgery": 60,
+    "surgery_mortality": 0.11666666666666667,
+    "endoscopy_mortality": 0.11538461538461539
+  },
+  ">75 years": {
+    "absolute_benefit": -0.062271062271062244,
+    "recommendation": "Endoscopic treatment reasonable",
+    "n_patients": 294,
+    "n_surgery": 21,
+    "surgery_mortality": 0.2857142857142857,
+    "endoscopy_mortality": 0.22344322344322345
+  },
+  "Charlson_Low (0-1)": {
+    "absolute_benefit": 0.03261689291101055,
+    "surgery_mortality": 0.09558823529411764,
+    "endoscopy_mortality": 0.1282051282051282,
+    "n_patients": 721
+  },
+  "Charlson_High (\u22652)": {
+    "absolute_benefit": 0.044417401886218455,
+    "surgery_mortality": 0.15789473684210525,
+    "endoscopy_mortality": 0.2023121387283237,
+    "n_patients": 192
+  }
+}
