@@ -801,7 +801,7 @@ def main():
         
         st.markdown("---")
         st.markdown("**Developed by:**")
-        st.markdown("Clinical Research Team")
+        st.markdown("Dr Shamsul Masum")
         st.markdown("**Version:** Phase 4 Updated")
         st.markdown("**Model:** Clinical Direct Cox (Updated)")
         
